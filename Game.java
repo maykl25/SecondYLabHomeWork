@@ -1,7 +1,9 @@
 package theGame;
 import java.io.*;
 import java.util.Scanner;
-
+/* Простейшая реализация игры "Крестики-нолики"
+* Согласно правилам, победивший игрок получает 3 очка, а проигравший - 0 очков.
+* Если происходит ничья, каждый игрок получает по одному очку.*/
 public class Game {
     static int VERTICAL = 3;
     static int HORIZONTAL = 3;
